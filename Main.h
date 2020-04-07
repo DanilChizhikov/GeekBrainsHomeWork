@@ -26,24 +26,24 @@ void CheckInt(int a)
 	cin >> a;
 	switch ((constant_set)a)
 	{
-	case csConstant1:
-	case csConstant2:
-	case csConstant3: {
-		cout << "You hit first half :)" << endl;
-		isWork = false;
-	}break;
+		case csConstant1:
+		case csConstant2:
+		case csConstant3: {
+			cout << "You hit first half :)" << endl;
+			isWork = false;
+		}break;
 
-	case csConstant4:
-	case csConstant5:
-	case csConstant6: {
-		cout << "You hit second half :)" << endl;
-		isWork = false;
-	}break;
+		case csConstant4:
+		case csConstant5:
+		case csConstant6: {
+			cout << "You hit second half :)" << endl;
+			isWork = false;
+		}break;
 
-	default:
-		cout << "You entered an invalid value :(" << endl;
-		cout << "Try again: ";
-		break;
+		default:
+			cout << "You entered an invalid value :(" << endl;
+			cout << "Try again: ";
+			break;
 	}
 }
 
@@ -101,11 +101,11 @@ void GamePickSticks()
 										switch ((Players)indexPlayer)
 										{
 											case player: {
-												cout << "Player_1 Won!" << endl;
+												cout << "Player_1 Losse!" << endl;
 											}break;
 
 											case bot: {
-												cout << "Player_Bot Won!" << endl;
+												cout << "Player_Bot Losse!" << endl;
 											}break;
 										}
 										isGame = false;
@@ -159,7 +159,7 @@ void GamePickSticks()
 									if (countTake <= countSticks) {
 										countSticks -= countTake;
 										if (countSticks == 0) {
-											cout << "Player_"; cout << indexPlayer; cout << " Won!" << endl;
+											cout << "Player_"; cout << indexPlayer; cout << " Losse!" << endl;
 											isGame = false;
 											break;
 										}

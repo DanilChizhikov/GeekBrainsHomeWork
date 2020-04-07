@@ -39,9 +39,17 @@ namespace _geek {
 		{
 			cout << "x != 5" << endl;
 		}
-		else
+		else if (x == 5)
 		{
 			cout << "x = 5" << endl;
+		}
+		else if (x == 0)
+		{
+			cout << "x = 0" << endl;
+		}
+		else if (x < 0)
+		{
+			cout << "x < 0" << endl;
 		}
 	}
 }

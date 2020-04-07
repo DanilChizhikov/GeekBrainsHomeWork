@@ -1,0 +1,22 @@
+﻿  Main.cpp
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(221,27): error C2062: тип "int" не требуется
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(221,31): warning C4552: "<": результат выражения не используется
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(221,42): error C2065: j: необъявленный идентификатор
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(221,48): error C2059: синтаксическая ошибка: )
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(223,17): error C2065: j: необъявленный идентификатор
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(223,18): error C2059: синтаксическая ошибка: ;
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(226,2): error C2059: синтаксическая ошибка: for
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(226,16): error C2143: синтаксическая ошибка: отсутствие ")" перед ";"
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(226,20): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(226,20): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(226,27): error C2143: синтаксическая ошибка: отсутствие ";" перед "++"
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(226,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(226,26): error C2086: int i: переопределение
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(226): message : см. объявление "i"
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(226,29): error C2059: синтаксическая ошибка: )
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(227,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(227,2): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(230,1): error C2059: синтаксическая ошибка: }
+C:\Users\clich\Desktop\geekbrainshomework\Main.h(230,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+C:\Users\clich\Desktop\geekbrainshomework\Main.cpp(3,34): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\clich\Desktop\geekbrainshomework\Main.cpp(3,34): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)

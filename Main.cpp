@@ -28,7 +28,7 @@ int main(int* argc, char** args) {
 
 				GetCharArray();
 
-				int n;
+				unsigned int n;
 				cout << "Enter integer: ";
 				cin >> n;
 
